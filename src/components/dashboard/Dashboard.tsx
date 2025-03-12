@@ -217,9 +217,11 @@ const Dashboard = () => {
               className="flex-shrink-0"
             >
               <div className="flex items-center space-x-3">
-                <div className="h-8 w-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
-                  F
-                </div>
+                <img 
+                  src="/logo.svg" 
+                  alt="Finora Logo" 
+                  className="h-8 w-8 rounded-full"
+                />
                 <h1 className="text-xl font-semibold text-white">
                   Finora
                 </h1>
